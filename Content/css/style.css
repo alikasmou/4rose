@@ -1,0 +1,386 @@
+@charset "ISO-8859-9";
+/* CSS Document */
+
+body{
+	/*main color #090b0a*/
+	background-color:#DCDCDC;
+		margin:0 
+	}
+
+.ortalama{ margin-left:auto;margin-right:auto}
+.btn{
+	width:200px;
+	height:40px
+	}
+.temizle {
+	clear:both
+	}
+.fa-wifi, .fa-exclamation {
+	color:#98802f;
+	margin-top:50px;
+    float: right;
+    position:fixed;
+    right: 50px
+	}
+.connect{
+	float:left;
+	position:absolute
+}
+.profilePic img { 
+	width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: 29px 0px;
+    background-color: transparent;
+}
+/*================== Login style ==============================*/
+.backgroundLogin{
+	min-height:100%;
+	width:100%;
+	padding-top:65px;
+	padding-bottom:65px;
+	background: url(../../img/bg/LoginPage.png) no-repeat;
+	webkit-background-size:cover;
+	background-size:cover;
+	position:relative
+	
+	}
+.borderLogin {
+	padding:20px 50px 95px 50px;
+	height:auto;
+	width:550px;
+	border-radius:20px;
+	background-color: rgba(117,109,109,0.19);
+	border-style:solid;
+	border-width:3px;
+	border-color:e7e7e7;
+	margin-left:90px;
+	margin-top:5px;
+	margin-bottom:50px
+	}
+	
+.Logo{
+	width:375px;
+	height:212px;
+	margin: 0 auto;
+	background-image:url(../../img/icon/logo.png);
+	background-repeat:no-repeat;
+	background-size:cover
+	}
+.formItem{
+	margin:20px auto
+	}
+.LoginForm label {
+	color:#e7e7e7;
+	font-size:12px
+	}	
+.LoginForm i {
+	/*i objects*/
+	}
+.formItem .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #555;
+	padding-left:50px;
+    background-color: #e7e7e7;
+    background-image: none;
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.formItem .fa-user-o, .fa-key{
+	float:left;
+	position:relative;
+	bottom:37px;
+	left:15px;
+	font-size:25px;
+	color:#090b0a;
+	font-weight:1px
+	}
+
+.formItem .btn {
+	height:45px;
+	border-radius:10px;
+	background-color:#98802f;
+	font-size:20px;
+	line-height:20px;
+	font-weight:bold;
+	letter-spacing:5px;
+	font-family:inherit;
+	}
+.formItem .fa-unlock-alt, .fa-search {	
+	float:left;
+	position:relative;
+	bottom:34px;
+	left:15px;
+	font-size:25px;
+	color:#090b0a;
+	font-weight:1px
+	}
+	
+.formItem .fa-unlock-alt:hover {	
+	color:#98802f	
+	}
+.formItem .btn:hover {
+	transition-duration:2S;	
+	background-color:#e7e7e7;
+	color: #98802f
+	}
+	
+.ForgetYourPassword h3{
+	margin:20px 0;
+	color:#e7e7e7}
+.ForgetYourPassword p{
+	margin:20px 0;
+	color:#e7e7e7}
+.formItem .fa-check {
+    position: relative;
+    float: left;
+    bottom: 37px;
+    font-size: 26px;
+    color: darkcyan;
+    left: 378px;
+}
+.formItem .fa-times {
+    position: relative;
+    float: left;
+    bottom: 37px;
+    font-size: 26px;
+    color: red;
+    left: 378px;
+	}
+.passcontrol {
+	display:none
+	}
+	
+.text_username { color: #47DF27 ; font-weight:bold ; text-transform: uppercase  }	
+/*---- hatalar alani  -----*/
+
+.hatalar ul { font-size:18px; color:#E92528 ; list-style:circle ; margin-left:0 }
+.hatalar ul li { color:#e7e7e7 ; font-size:18px }
+
+
+/*====================================	end of login style ===============================*/
+	
+/*--------------------------- cpanel style start ----------------------*/
+
+/*---navbar start---*/
+.navbar {
+    border-radius:0 !important;
+	margin:0 
+	}
+.navbar a {
+	color:#000000 !important ;
+	font-size:14px;
+	}
+.navbar a:hover{
+	color:#988517 !important 
+	}
+.navbar li {
+	color:#000000 !important ;
+	font-size:14px;
+	}
+.navbar-brand{
+	width:50px;
+	height:30px;
+	padding:0;
+	margin-right:30px
+	}
+.navbar .navbar-brand img {
+	margin:10px;
+	width:50px;
+	height:30px
+	}
+		
+.drp_username a {
+	color:#000000;
+	font-size:14px;
+	font-weight:bold	
+	}
+	
+.drp_username a:hover {
+	color:#988517 !important	
+	}
+	
+.drp_username li {
+	color:#000000;
+	font-size:18px
+	}
+/*---navbar end---*/
+
+/*--- panels style ---*/
+.cp a { text-align:center}
+.panels {
+	height:250px;
+	background-color:#4C9208
+	}
+
+
+
+
+/*---panels style ---*/
+
+/*======table style ======*/
+
+.table > thead > tr > th, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > tbody > tr > td, 
+.table > tfoot > tr > td {
+    padding: 5px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;}
+
+/*======table style ======*/
+
+/* cpanel style end   */	
+
+/*======== Start Btn_sendToAdmin page  ========*/
+.sendToAdminCont {
+	background-color:#FCFCFC;
+	border-radius:40px;
+	margin:50px auto;
+	padding:50px	
+	
+}
+/*======== End Btn_sendToAdmin page  ========*/
+
+/*================ITEMS HOME ====================*/
+
+.thumbnail .price{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    color: #000000;
+    border-radius: 5px;
+    text-align: left;
+    font-size: large
+	
+	}
+.rate{
+	position: absolute;
+    top: 5px;
+    right: 30px;
+	float:right}
+.rate .fa-thumbs-o-up { font-size:27px;
+color:#000000;
+font-weight:bold;
+margin:10}
+.rate .rateSpan { font-size: large; font-weight:bold}
+
+.islemler{
+	margin:10 auto ; text-align:center ; align-content:center
+	}
+.islemler-btn-sm {
+	width:95px;
+	height:30px;
+	margin:5px;
+	border-radius:10px;
+	line-height:30px;
+	color:#000000;
+	padding:2px
+	}
+.btn-add{
+	height: 35px;
+    width: 127px;
+    border-radius: 10px;
+    background-color: #2c5e6d;
+    color: #f5f5f5;
+	margin:30px 
+	}
+
+.itemsDiv .thumbnail{
+	background-color:#F4F4F5;
+	border-radius:10px !important;
+	-webkit-box-shadow: 7px 7px 25px -1px rgba(0,0,0,0.81);
+	-moz-box-shadow: 7px 7px 25px -1px rgba(0,0,0,0.81);
+	box-shadow: 7px 7px 25px -1px rgba(0,0,0,0.81)}
+	
+.thumbnail img {
+	border-radius:10px ;
+	border:solid thin #000000
+	}
+.itemCont {
+	clear:both;
+	min-height:400px
+	}
+.itemColor{
+	float:left;
+	margin:5px;
+	width:25px;
+	height:25px;
+	border-radius:20px
+
+	}
+
+/*================================== Sellers Page Style Begin ========================================================*/
+.sellerCard {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background-color:#FFFFFF;
+	border-radius: 15px;
+	border: solid thin #000000;
+	height:auto;
+	padding:10px;
+	width:100%
+	}
+.tableSeller {
+	margin:13
+	}
+.tableSeller td, th {
+    padding: 10px
+}
+.buttonsSeller a{
+	float:left;
+	margin-right:10px;
+	width:40px;
+	font-size:30px;
+	display:block	
+	}
+.margin-b {
+	margin-bottom : 30px
+	}	
+.personel{
+	font-size:20px;
+	color:#01357F;
+	font-weight:bold
+	}
+	
+.company{
+		font-size:27px;
+		letter-spacing:1px;
+		line-height:27px;
+		font-weight:bolder;
+		font-variant:small-caps
+	}
+.google-Address{
+	margin:20px auto 
+	}
+/*================================== Sellers Page Style End ========================================================*/
+
+/*===============orders page=================*/
+
+.btn-addOrder{
+	width: 46px !important;
+    height: 29px !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+    text-align: center !important
+	}
+
+/*===========end order page =================*/
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
